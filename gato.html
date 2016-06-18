@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang=¨sp¨>
+    <!-- Cabecera -->
+    <head>
+        <title>Gato</title>
+        <meta charset="utf-8">
+        <link rel = 'stylesheet' type = 'text/css' href = 'styles/ui.css'>
+        <link rel="shortcut icon" href="fismat.png">
+    </head>
+
+
+    <!-- Body -->
+    <body>
+        <div class = 'main-container'>
+            <div class = 'board'>
+                <!-- Arreglo de 1 dimensión -->
+                <div class='cell' data-indx = "0" ></div>
+                <div class='cell' data-indx = "1" ></div>
+                <div class='cell' data-indx = "2" ></div>
+                <div class='cell' data-indx = "3" ></div>
+                <div class='cell' data-indx = "4" ></div>
+                <div class='cell' data-indx = "5" ></div>
+                <div class='cell' data-indx = "6" ></div>
+                <div class='cell' data-indx = "7" ></div>
+                <div class='cell' data-indx = "8" ></div>
+            </div>
+
+            <div class = 'control'>
+                <div class = 'intial'>
+                    <div class='start'> Inicio</div>
+                </div>
+                
+                
+                <div class = 'ingame' id="human">Es tu turno ...</div>
+                <div class = 'ingame' id="ai">...</div>
+                <div class = 'ingame' id="won">Baia baia... ¡Ganaste! :D</div>
+                <div class = 'ingame' id="lost">¡Rayos, perdiste! :(</div>
+                <div class = 'ingame' id="draw">Empate</div>
+                
+                <div class='reiniciar'>Reinicar</div>
+            </div>
+        </div>
+
+        <script src = "scripts/jquery-1.10.1.min.js"></script>
+        <script src = "scripts/interfaz.js"></script>
+        <script src = "scripts/gato.js"></script>
+        <script src = "scripts/minimax.js"></script>
+        <script src = "scripts/acciones.js"></script>
+        
+    </body>
+</html>
